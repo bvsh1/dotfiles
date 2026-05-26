@@ -1,0 +1,26 @@
+# ==============================
+# CONFIGURACIÓN GHOSTTY - KALI STYLE
+# ==============================
+
+# --- COLORES DE LA FOTO ---
+# Fondo: Negro puro (como el terminal de Kali por defecto)
+background = #000000
+# Texto: Blanco
+foreground = #ffffff
+# Cursor: Blanco (o gris claro, como en la imagen)
+cursor-color = #cccccc
+
+# --- APARIENCIA ---
+# Transparencia leve (típica de Kali). 
+# Si en la foto lo veías totalmente sólido, cambia 0.90 por 1.0
+background-opacity = 1.0
+background-blur = true
+
+# --- FUENTE ---
+font-size = 13
+# Ajuste para que se vea nítido
+font-feature = -calt -liga
+
+# --- VENTANA ---
+window-decoration = true
+confirm-close-surface = false
